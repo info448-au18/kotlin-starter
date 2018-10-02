@@ -61,7 +61,7 @@ task runLocation(type: JavaExec) {
 
 //a "runDroid" task to execute the Droid class's main method
 //execute with `gradle runDroid`
-task runDroid(type: JavaExec) {
+task runPayroll(type: JavaExec) {
 	classpath = sourceSets.main.runtimeClasspath //classpath
-	main = 'edu.info448.kotlin.DroidKt' //the class that contains the main method
+	main = 'edu.info448.kotlin.PayrollKt' //the class that contains the main method
 }
