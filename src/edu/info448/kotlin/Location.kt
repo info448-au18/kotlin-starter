@@ -22,8 +22,8 @@ package edu.info448.kotlin
 
 
 /* Step 2: Define a function `distanceFromSeattle()` that takes as a param a 
-   City object and the distance in kilometers (Double) between that city and 
-   Seattle, WA (latitude: 47.6062, longitude: -122.3321).
+   City object and return the distance in kilometers (Double) between that city 
+   and Seattle, WA (latitude: 47.6062, longitude: -122.3321).
 
    You can use the `haversine()` function provided below to calculate the 
    distance in km between two points on the globe.
